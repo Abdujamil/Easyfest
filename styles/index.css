@@ -26,11 +26,20 @@ body {
 
 .header {
   background: url(/img/circleLeft.png) left top no-repeat,
-    url(/img/circleRIght.png) right top no-repeat;
+    url(/img/circleRIght.png) right top no-repeat,
+    url("/img/back1.svg") top center no-repeat,
+    url("/img/back2.svg") left bottom no-repeat,
+    url("/img/back3.svg") left no-repeat, url("/img/back4.svg") right no-repeat,
+    url("/img/back5.svg") right bottom no-repeat,
+    url("/img/back6.svg") center no-repeat;
   background-size: 234px;
   min-height: 635px;
   position: relative;
   margin-bottom: 90px;
+}
+
+.header__main {
+  background: url("/img/back.svg") left bottom no-repeat;
 }
 
 .header__head {
@@ -128,6 +137,11 @@ body {
   margin: auto 170px;
   /* width: 50%; */
   margin-bottom: 40px;
+  background: url(/img/2_1.svg) bottom left no-repeat,
+    url(/img/2_2.svg) top center no-repeat,
+    url(/img/2_3.svg) center right no-repeat,
+    url(/img/2_4.svg) bottom right no-repeat,
+    url(/img/2_5.svg) center bottom no-repeat;
 }
 
 .aboute__container {
@@ -180,6 +194,11 @@ body {
 
 .special {
   text-align: center;
+  background: url(/img/2_1.svg) bottom left no-repeat,
+    url(/img/2_2.svg) top center no-repeat,
+    url(/img/2_3.svg) center left no-repeat,
+    url(/img/2_4.svg) bottom right no-repeat,
+    url(/img/2_2.svg) top right no-repeat;
 }
 
 .special h1 {
@@ -256,6 +275,13 @@ td {
   max-height: 585px;
   position: relative;
   margin-bottom: 230px;
+  background: url(/img/2_1.svg) bottom left no-repeat,
+    url(/img/2_2.svg) top center no-repeat,
+    url(/img/2_4.svg) bottom right no-repeat,
+    url(/img/2_4.svg) top right no-repeat, url(/img/2_2.svg) right no-repeat,
+    url(/img/2_2.svg) center bottom no-repeat,
+    url(/img/2_2.svg) top left no-repeat,
+    url(/img/2_4.svg) center left no-repeat;
 }
 
 .hwork_body {
@@ -336,6 +362,13 @@ td {
   max-height: 335px;
   text-align: center;
   margin-bottom: 200px;
+  background: url(/img/3_1.svg) left bottom no-repeat,
+    url(/img/3_2.svg) right bottom no-repeat,
+    url(/img/2_2.svg) top center no-repeat,
+    url(/img/2_4.svg) bottom center no-repeat, url(/img/2_2.svg) right no-repeat,
+    url(/img/2_2.svg) center bottom no-repeat,
+    url(/img/2_2.svg) top left no-repeat,
+    url(/img/2_4.svg) center left no-repeat;
 }
 
 .advantage h1 {
@@ -374,6 +407,12 @@ td {
 
 .otziv {
   margin-bottom: 60px;
+  background: url(/img/4_1.svg) right bottom no-repeat,
+    url(/img/2_2.svg) top center no-repeat,
+    url(/img/2_4.svg) bottom center no-repeat, url(/img/2_2.svg) left no-repeat,
+    url(/img/2_2.svg) center bottom no-repeat,
+    url(/img/2_2.svg) top right no-repeat,
+    url(/img/2_4.svg) center left no-repeat;
 }
 
 .otziv__handImg {
@@ -404,6 +443,14 @@ td {
 
 .news {
   margin-bottom: 100px;
+  background: 
+  url(/img/2_2.svg) top center no-repeat,
+  url(/img/2_2.svg) bottom center no-repeat,
+  url(/img/2_4.svg) bottom right no-repeat, url(/img/2_2.svg) left no-repeat,
+  url(/img/2_2.svg) center bottom no-repeat,
+  url(/img/2_2.svg) top right no-repeat,
+  url(/img/2_3.svg) top left no-repeat,
+  url(/img/2_4.svg) bottom left no-repeat;
 }
 
 .news__body {
@@ -533,5 +580,5 @@ footer .ft-name {
   text-align: center;
   color: white;
   font-size: 12px;
-    font-family: 'Roboto-regular';
+  font-family: "Roboto-regular";
 }
